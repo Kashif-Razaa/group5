@@ -8,7 +8,6 @@
 body {
   background-color: #fff;
   color: #333;
-
 }
 
 #about-us {
@@ -19,13 +18,11 @@ body {
   padding-bottom: 50px;
   color: #fff;
   font-weight: 700;
-
 }
 
 .about {
   height: 600px;
   padding: 60px 100px;
-
 }
 
 .about-container {
@@ -40,8 +37,6 @@ body {
   flex: 1;
   animation: img-grid 0.8s ease-in forwards;
   opacity: 0;
-
-
 }
 
 #img1 {
@@ -79,7 +74,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   align-items: center;
-
 }
 
 @keyframes img-grid {
@@ -99,13 +93,11 @@ body {
   transition: 0.3s;
 }
 
-
 .img-grid img {
   width: 200px;
   height: 180;
   object-fit: cover;
   border-radius: 10px;
-
 }
 
 .img-grid .img1 {
@@ -115,7 +107,6 @@ body {
 .img-grid .img2 {
   text-align: left;
 }
-
 
 /* RIGHT SIDE CONTENT */
 .about-content {
@@ -241,7 +232,7 @@ nav ul a {
   font-size: 15px;
   border-radius: 2px;
 }
-.nav-btn a:hover{
+.nav-btn a:hover {
   color: white;
 }
 
@@ -260,7 +251,6 @@ nav ul a:active {
   display: grid;
   grid-template-columns: 1fr 650px;
   margin-top: 50px;
-
 }
 
 .hero-left {
@@ -291,7 +281,6 @@ nav ul a:active {
   border-radius: 2px;
   animation: left-h1-p-btn 1.2s ease-in 0.6s forwards;
   opacity: 0;
-
 }
 
 @keyframes left-h1-p-btn {
@@ -310,13 +299,11 @@ nav ul a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .hero-right img {
   width: 550px;
   animation: hero-img 23s linear infinite;
-
 }
 
 @keyframes hero-img {
@@ -418,98 +405,77 @@ nav ul a:active {
 
 /* --Nav & head End-- */
 /* ---Footer Start--- */
-        footer {
-            background-color: #0f172b;
-        }
+footer {
+  background-color: #0f172b;
+}
 
-        footer .font-pacifico {
-            font-family: 'Pacifico', cursive;
-            color: orange;
-            margin-top: 110px;
-        }
+footer .font-pacifico {
+  font-family: "Pacifico", cursive;
+  color: orange;
+  margin-top: 110px;
+}
 
-        .fr1 {
-            padding-left: 100px;
-        }
+.fr1 {
+  padding-left: 100px;
+}
 
-        footer .fr1 ul {
-            list-style: none;
-            margin-top: 40px;
-        }
+footer .fr1 ul {
+  list-style: none;
+  margin-top: 40px;
+}
 
-        footer .fr1 ul li {
-            margin-top: 10px;
-        }
+footer .fr1 ul li {
+  margin-top: 10px;
+}
 
-        .fr1 ul li:hover {
-            transform: scale(1.1);
-        }
+.fr1 ul li:hover {
+  transform: scale(1.1);
+}
 
-        footer .fr1 ul a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-        }
+footer .fr1 ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-        footer .fr1 ul li::before {
-            content: ">";
-            color: white;
-            margin-right: 20px;
-            font-weight: bolder;
-        }
+footer .fr1 ul li::before {
+  content: ">";
+  color: white;
+  margin-right: 20px;
+  font-weight: bolder;
+}
 
-        footer .fr2 {
-            padding-left: 100px;
-            color: white;
-        }
+footer .fr2 {
+  padding-left: 100px;
+  color: white;
+}
 
-        .fr2 .cell {
-            margin-top: 20px;
-            display: flex;
-            gap: 20px;
-        }
+.fr2 .cell {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
 
-        .fr2 .location {
-            display: flex;
-            gap: 20px;
-            margin-top: 40px;
-        }
+.fr2 .location {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
 
-        .fr2 .email {
-            display: flex;
-            gap: 20px;
-            margin-top: 20px;
-        }
+.fr2 .email {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
 
-        .fr3 {
-            padding-left: 100px;
-            color: white;
-        }
+.fr3 {
+  padding-left: 100px;
+  color: white;
+}
 
-        .fr4 {
-            color: white;
-            padding-left: 80px;
-            padding-right: 70px;
-        }
-
-        .fr4 input {
-            padding: 15px;
-            margin-top: 15px;
-            border: none;
-            border-radius: 2px;
-        }
-
-        .fr4 button {
-            position: relative;
-            width: 73px;
-            height: 47px;
-            background-color: orange;
-            color: white;
-            cursor: pointer;
-            font-size: 15px;
-            font-weight: bold;
-            border: none;
-            border-radius: 3px;
-        }
-
-        /* --Footer End-- */
+.fr4 {
+  color: white;
+  padding-left: 80px;
+  padding-right: 70px;
+}
+/* --Footer End-- */

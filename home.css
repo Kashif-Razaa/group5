@@ -462,27 +462,4 @@ footer .fr2 {
   padding-left: 80px;
   padding-right: 70px;
 }
-
-.fr4 input {
-  padding: 15px;
-  margin-top: 15px;
-  border: none;
-  border-radius: 2px;
-}
-
-.fr4 button {
-  position: relative;
-  left: 73%;
-  bottom: 14%;
-  width: 73px;
-  height: 47px;
-  background-color: orange;
-  color: white;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
-  border: none;
-  border-radius: 3px;
-}
-
 /* --Footer End-- */
